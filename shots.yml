@@ -4,3 +4,13 @@
 - url: https://antennasurveys.com
   output: as-shot.png
   height: 800
+- url: https://www.latimes.com/
+  output: latimes.jpg
+  width: 1600
+  height: 1600
+  quality: 80
+  wait: 2000
+  javascript: |
+    document.querySelectorAll(
+      '[data-ad-rendered],#ensNotifyBanner'
+    ).forEach(el => el.style.display = 'none')
