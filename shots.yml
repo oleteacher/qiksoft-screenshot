@@ -1,3 +1,6 @@
 - url: https://qiksoft.com
   output: shot.png
   height: 800
+- url: https://antennasurveys.com
+  output: shot.png
+  height: 800
