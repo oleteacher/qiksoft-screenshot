@@ -2,5 +2,5 @@
   output: shot.png
   height: 800
 - url: https://antennasurveys.com
-  output: shot.png
+  output: as-shot.png
   height: 800
